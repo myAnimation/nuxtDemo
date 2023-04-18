@@ -2,8 +2,9 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">婷更新了，你来了啦！（好好学习，天天向上）</h1>
+        <h1 class="logo-font">姜浩，你来了啦！（好好学习，天天向上）</h1>
         <p>一个分享知识的地方.</p>
+
       </div>
     </div>
 
@@ -186,6 +187,7 @@ import {
 } from "@/api/article";
 import { getTags } from "@/api/tag.js";
 import { mapState } from "vuex";
+
 export default {
   name: "HomeIndex",
   watchQuery: ["page", "tag", "tab"],
@@ -266,6 +268,9 @@ export default {
       article.favoriteDisabled = false;
     },
   },
+  mounted(){
+   
+  }
 };
 </script>
 
