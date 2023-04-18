@@ -2,7 +2,7 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">婷，你来了啦！（好好学习，天天向上）</h1>
+        <h1 class="logo-font">婷更新了，你来了啦！（好好学习，天天向上）</h1>
         <p>一个分享知识的地方.</p>
       </div>
     </div>
